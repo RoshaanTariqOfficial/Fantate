@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="2dp"
+        android:text="Title:"
+        app:layout_constraintBottom_toTopOf="@+id/sizeTag"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="2dp"
+        android:text="Xbc-zyz-1234"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/size"
+        app:layout_constraintStart_toEndOf="@+id/titleTag" />
+
+    <TextView
+        android:id="@+id/sizeTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="2dp"
+        android:text="Size:"
+        app:layout_constraintBottom_toTopOf="@+id/DateTag"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="2dp"
+        android:text="728 mb"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/date"
+        app:layout_constraintStart_toEndOf="@+id/sizeTag" />
+
+    <TextView
+        android:id="@+id/DateTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="2dp"
+        android:text="Date:"
+        app:layout_constraintBottom_toTopOf="@+id/LocationTag"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="2dp"
+        android:text="25th December 2019"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/loc"
+        app:layout_constraintStart_toEndOf="@+id/DateTag" />
+
+    <TextView
+        android:id="@+id/LocationTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Location:"
+        app:layout_constraintBottom_toTopOf="@+id/upload"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="5dp"
+        android:text="!55Q, PECHS, Karachi."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/upload"
+        app:layout_constraintStart_toEndOf="@+id/LocationTag" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Upload"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

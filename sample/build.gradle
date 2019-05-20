@@ -1,0 +1,36 @@
+apply plugin: rootProject.ext.plugins.application
+apply plugin: 'com.google.gms.google-services'
+
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        applicationId rootProject.ext.android.applicationId
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+    }
+}
+
+
+
+
+dependencies {
+    implementation rootProject.ext.dependencies.album
+    implementation rootProject.ext.dependencies.appCompat
+    implementation rootProject.ext.dependencies.design
+    implementation rootProject.ext.dependencies.recyclerView
+    implementation rootProject.ext.dependencies.cardView
+    implementation rootProject.ext.dependencies.glide
+    implementation rootProject.ext.dependencies.gmail
+    implementation rootProject.ext.dependencies.firebase
+    implementation rootProject.ext.dependencies.auth
+    implementation rootProject.ext.dependencies.database
+    implementation rootProject.ext.dependencies.support
+    implementation rootProject.ext.dependencies.constraint
+    implementation 'com.google.firebase:firebase-auth:16.0.3'
+    implementation 'com.github.javiersantos:MaterialStyledDialogs:2.1'
+}

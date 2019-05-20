@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="btn_function_camera">Camera</string>
+    <string name="btn_function_album">Pictures and Videos</string>
+    <string name="btn_function_picture">Only Pictures</string>
+    <string name="btn_function_video">Only Videos</string>
+    <string name="btn_function_gallery">Gallery</string>
+    <string name="btn_function_change_style">Change Style</string>
+    <string name="btn_function_filter">Filter</string>
+
+    <string name="btn_plus">+</string>
+
+    <string name="title_camera">Camera</string>
+    <string name="menu_camera_image">Image</string>
+    <string name="menu_camera_video">Video</string>
+
+    <string name="title_image_select">Select image</string>
+    <string name="menu_image_select">Image</string>
+
+    <string name="title_video_select">Select video</string>
+    <string name="menu_video_select">Video</string>
+
+    <string name="title_album_select">Media Album</string>
+    <string name="menu_album_select">Album</string>
+
+    <string name="title_gallery">Gallery</string>
+
+    <string name="menu_preview">Gallery</string>
+    <string name="btn_gallery_preview">Preview Network Image</string>
+
+    <string name="checkable">Checkable Options</string>
+    <string name="canceled">Canceled</string>
+    <string name="no_selected">Please select, first.</string>
+
+    <string name="hint_image_preview_click">Click on a item to preview them.</string>
+
+    <string name="hint_filter_after_visibility">Did you show the filtered files?</string>
+    <string name="filter_after_visibility_visible">Show</string>
+    <string name="filter_after_visibility_gone">Hide</string>
+
+    <string name="facebook_app_id">2353408231546125</string>
+    <string name="fb_login_protocol_scheme">fb2353408231546125</string>
+
+
+    <string name="app_name">FanTate</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="reset">Reset</string>
+    <string name="switch_camera">Switch</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="done">Done</string>
+    <string name="video_path">Video path:</string>
+    <string name="video_too_short">Video is too short.</string>
+    <string name="initiating">Initiating…</string>
+    <string name="processing">Processing…</string>
+    <string name="please_wait">Please wait</string>
+    <string name="permissions_denied_exit">Permissions denied, exit.</string>
+    <string name="help_text"><b>FAQ and Help</b>\nThanks for downloading Fantate!\nFantate is a platform that allows you to upload videos of any event which will be stitched together with other Fantate user videos to present a multi-camera, dynamic view.\nWhat types of events can I use this app for?\nJust about event can be filmed, but we prefer you focus on sporting events, like your child\'s soccer or football game.\n\n<b>How do I use the app?</b>\nAfter you\'ve signed up you can begin filming immediately by pressing on the record button. After you\'re done filming the video it will be uploaded to our backend system where we have a team of video editors ready to go. Once we are done with our editing you will be notified (via email) that your footage was used during an event and a link of the video will be sent to you for viewing.\n\nAny additional questions?\nSend us an email to support@vidxvis.com</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="RememberMe">Remember Me</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="Logo">Logo</string>
+    <string name="FirstName">FirstName</string>
+    <string name="LastName">LastName</string>
+    <string name="Email">Email</string>
+    <string name="ConfirmEmailAddress">Confirm Email Address</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="registrationPage">Registration Page</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="or">OR</string>
+    <string name="forget_password">Reset Password</string>
+    <string name="logout">Logout</string>
+
+    <string name="button_product_tour">product tour</string>
+
+    <string name="welcom_head_01">Spreadsheets on the go</string>
+    <string name="welcom_content_01">Get stuff done with or without an internet connection.</string>
+    <string name="welcom_head_02">Share and edit together</string>
+    <string name="welcom_content_02">Write on your own or invite more people to contribute.</string>
+    <string name="welcom_head_03">Automatically save to the web</string>
+    <string name="welcom_content_03">Never lose your progress, so you can keep working from any computer or device.</string>
+    <string name="welcom_head_04">Edit Excel spreadsheets</string>
+    <string name="welcom_content_04">Open, edit, and save Excel files - all within Sheets.</string>
+
+</resources>

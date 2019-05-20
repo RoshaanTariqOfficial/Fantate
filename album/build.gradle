@@ -1,0 +1,23 @@
+apply plugin: rootProject.ext.plugins.library
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+    }
+
+    resourcePrefix 'album'
+}
+
+dependencies {
+    implementation rootProject.ext.dependencies.appCompat
+    implementation rootProject.ext.dependencies.design
+    implementation rootProject.ext.dependencies.recyclerView
+    implementation rootProject.ext.dependencies.cardView
+    api rootProject.ext.dependencies.mediaScanner
+}
+
+apply from: 'https://raw.githubusercontent.com/yanzhenjie/bintray/master/maven.gradle'
